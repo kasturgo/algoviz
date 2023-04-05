@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../Windows/System32/vivasales-extension"
+		},
+		{
+			"name": "CRM.Solutions.Sales.PremiumSampleData",
+			"path": "../../../repos/CRM.Solutions.Sales.PremiumSampleData"
+		}
+	],
+	"settings": {}
+}
