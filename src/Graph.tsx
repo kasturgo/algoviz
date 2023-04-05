@@ -170,6 +170,7 @@ const GraphCanvas: FC<GraphCanvasProps> = ({ graph, width, height, addNode, addE
         const dy = y - node.positionY;
         const dist = Math.sqrt(dx * dx + dy * dy);
         if (dist <= 40) {
+          console.log("Distance is " + dist);
           if (selectedNodeIndex == - 1)
           {  
             setSelectedNodeIndex(i);
